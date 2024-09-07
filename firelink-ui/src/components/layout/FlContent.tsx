@@ -1,9 +1,8 @@
-import React from 'react';
-import '../../assets/css/content.css'
-import hub_video from '../../assets/media/firelink_hub_video.mp4'
+import React from "react";
+import "../../assets/css/content.css";
+import hub_video from "../../assets/media/firelink_hub_video.mp4";
 
 const FlContent: React.FC = () => {
-
   return (
     <main>
       <div className="image-container">
