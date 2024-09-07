@@ -1,0 +1,36 @@
+.fl-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 3rem;
+    background-color: black;
+    border-top: 1px solid var(--fl-background);
+}
+
+.fl-footer-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fl-footer-text p {
+    margin: 0;
+    font-size: 16px;
+    color: var(--fl-background);
+}
+
+.fl-footer-text .left {
+    text-align: left;
+    flex: 1;
+}
+
+.fl-footer-text .center {
+    text-align: center;
+    flex: 1;
+}
+
+.fl-footer-text .right {
+    text-align: right;
+    flex: 1;
+}
